@@ -94,16 +94,15 @@ void PlayGame()
                     }
                 }
             }
-        }
-    }
-    foreach (var plate in bankoPlates)
-    {
-        List<string> correctRows = CheckRows(plate.Value);
-        if (correctRows.Count > 0)
-        {
-            Console.WriteLine($"Correct rows in {plate.Key}: {string.Join(", ", correctRows)}");
+
+            List<string> correctRows = CheckRows(plate.Value);
+            if (correctRows.Count > 0)
+            {
+                Console.WriteLine($"Correct rows in {plate.Key}: {string.Join(", ", correctRows)}");
+            }
         }
     }
 }
 
+PlayGame();
 PlayGame();

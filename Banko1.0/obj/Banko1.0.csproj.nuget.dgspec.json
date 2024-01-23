@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mgerm\\Downloads\\banko1.0\\Banko1.0\\Banko1.0\\Banko1.0.csproj": {}
+    "C:\\Users\\mgerm\\Source\\Repos\\banko-MathiasGermandsen\\Banko1.0\\Banko1.0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mgerm\\Downloads\\banko1.0\\Banko1.0\\Banko1.0\\Banko1.0.csproj": {
+    "C:\\Users\\mgerm\\Source\\Repos\\banko-MathiasGermandsen\\Banko1.0\\Banko1.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mgerm\\Downloads\\banko1.0\\Banko1.0\\Banko1.0\\Banko1.0.csproj",
+        "projectUniqueName": "C:\\Users\\mgerm\\Source\\Repos\\banko-MathiasGermandsen\\Banko1.0\\Banko1.0.csproj",
         "projectName": "Banko1.0",
-        "projectPath": "C:\\Users\\mgerm\\Downloads\\banko1.0\\Banko1.0\\Banko1.0\\Banko1.0.csproj",
+        "projectPath": "C:\\Users\\mgerm\\Source\\Repos\\banko-MathiasGermandsen\\Banko1.0\\Banko1.0.csproj",
         "packagesPath": "C:\\Users\\mgerm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mgerm\\Downloads\\banko1.0\\Banko1.0\\Banko1.0\\obj\\",
+        "outputPath": "C:\\Users\\mgerm\\Source\\Repos\\banko-MathiasGermandsen\\Banko1.0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
