@@ -27,3 +27,18 @@ C:\Users\mgerm\Source\Repos\banko-MathiasGermandsen\Banko1.0\obj\Debug\net8.0\re
 C:\Users\mgerm\Source\Repos\banko-MathiasGermandsen\Banko1.0\obj\Debug\net8.0\Banko1.0.pdb
 C:\Users\mgerm\Source\Repos\banko-MathiasGermandsen\Banko1.0\obj\Debug\net8.0\Banko1.0.genruntimeconfig.cache
 C:\Users\mgerm\Source\Repos\banko-MathiasGermandsen\Banko1.0\obj\Debug\net8.0\ref\Banko1.0.dll
+C:\Users\mgerm\Downloads\update banko\Banko1.0\bin\Debug\net8.0\Banko1.0.exe
+C:\Users\mgerm\Downloads\update banko\Banko1.0\bin\Debug\net8.0\Banko1.0.deps.json
+C:\Users\mgerm\Downloads\update banko\Banko1.0\bin\Debug\net8.0\Banko1.0.runtimeconfig.json
+C:\Users\mgerm\Downloads\update banko\Banko1.0\bin\Debug\net8.0\Banko1.0.dll
+C:\Users\mgerm\Downloads\update banko\Banko1.0\bin\Debug\net8.0\Banko1.0.pdb
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.AssemblyInfoInputs.cache
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.AssemblyInfo.cs
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.csproj.CoreCompileInputs.cache
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.sourcelink.json
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.dll
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\refint\Banko1.0.dll
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.pdb
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\Banko1.0.genruntimeconfig.cache
+C:\Users\mgerm\Downloads\update banko\Banko1.0\obj\Debug\net8.0\ref\Banko1.0.dll
