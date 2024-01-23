@@ -1,9 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
+// Declare dictionaries to store the current and original state of the banko plates
 Dictionary<string, Dictionary<string, string[]>> bankoPlates = new Dictionary<string, Dictionary<string, string[]>>();
+Dictionary<string, Dictionary<string, string[]>> originalBankoPlates = new Dictionary<string, Dictionary<string, string[]>>();
 
+//method to initialize banko plates
 void CreateBankoPlates()
 {
     Dictionary<string, string[]> Mathias1 = new Dictionary<string, string[]>
@@ -46,7 +45,17 @@ void CreateBankoPlates()
     bankoPlates.Add("Mathias3", Mathias3);
     bankoPlates.Add("Mathias4", Mathias4);
     bankoPlates.Add("Mathias5", Mathias5);
+
+    foreach (var plate in bankoPlates)
+    {
+        originalBankoPlates[plate.Key] = new Dictionary<string, string[]>();
+        foreach (var row in plate.Value)
+        {
+            originalBankoPlates[plate.Key][row.Key] = (string[])row.Value.Clone();
+        }
+    }
 }
+
 
 
 bool continueGame = true;
@@ -66,6 +75,15 @@ List<string> CheckRows(Dictionary<string, string[]> plate)
     return correctRows;
 }
 
+foreach (var plate in bankoPlates)
+{
+    originalBankoPlates[plate.Key] = new Dictionary<string, string[]>();
+    foreach (var row in plate.Value)
+    {
+        originalBankoPlates[plate.Key][row.Key] = (string[])row.Value.Clone();
+    }
+}
+//method to run the game
 void PlayGame()
 {
     CreateBankoPlates();
@@ -93,16 +111,30 @@ void PlayGame()
                         Console.WriteLine($"Number found and marked in {plate.Key} on {row.Key}");
                     }
                 }
+
+                // If the row is correct after marking the number, print it
+                if (row.Value.All(val => val == "X"))
+                {
+                    string[] originalRow = originalBankoPlates[plate.Key][row.Key];
+                    string originalNumbers = string.Join(", ", originalRow.Where(val => val != "0"));
+                    Console.WriteLine($"{plate.Key} {row.Key} is correct with the following numbers: {originalNumbers}");
+                }
             }
 
-            List<string> correctRows = CheckRows(plate.Value);
-            if (correctRows.Count > 0)
+            // If all numbers on a plate are marked, print the original numbers
+            if (plate.Value.Values.All(row => row.All(val => val == "X")))
             {
-                Console.WriteLine($"Correct rows in {plate.Key}: {string.Join(", ", correctRows)}");
+                var originalPlate = originalBankoPlates[plate.Key];
+                Console.WriteLine($"All numbers on {plate.Key} are correct:");
+                foreach (var row in originalPlate)
+                {
+                    string originalNumbers = string.Join(" | ", row.Value.Where(val => val != "0"));
+                    Console.WriteLine($"{row.Key}: {originalNumbers}");
+                }
             }
         }
     }
 }
 
-PlayGame();
+//start game
 PlayGame();
