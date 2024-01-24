@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5vgtnxp2IfYtzon27egWT2YIsMgJ92KnQhcjjbquDi3sqvKWDiV/Xec3oJeaSpV3gkDaC5I1I918pt9BWRtGKQ==",
+  "dgSpecHash": "aasZzcCGYH4nbJYmkN2JysaCR3si3riE2Pwogrny0ELtwivPsTi+gjnxeKHk/UATyhkHhNldyPfXwNjUq12fNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mgerm\\Downloads\\update banko\\Banko1.0\\Banko1.0.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mgerm\\.nuget\\packages\\csvhelper\\30.0.3\\csvhelper.30.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

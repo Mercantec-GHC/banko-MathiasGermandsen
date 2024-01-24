@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Banko1.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06b9c05ee7ccc362355c965df07cd52e918f5ed3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8f90ae2efd96d0a1048981dab80838834584e71")]
 [assembly: System.Reflection.AssemblyProductAttribute("Banko1.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Banko1.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
