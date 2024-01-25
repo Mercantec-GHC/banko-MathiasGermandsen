@@ -93,6 +93,76 @@ void CreateBankoPlates()
     { "Row2", new string[] { "17", "37", "54", "76", "82" } },
     { "Row3", new string[] { "5", "19", "27", "39", "59" } }
 };
+    Dictionary<string, string[]> Mathias14 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "3", "18", "29", "53", "61", "71" } },
+    { "Row2", new string[] { "6", "44", "57", "62", "83" } },
+    { "Row3", new string[] { "7", "32", "54", "67", "90" } }
+};
+
+    Dictionary<string, string[]> Mathias15 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "21", "44", "63", "71", "81" } },
+    { "Row2", new string[] { "6", "17", "35", "64", "84" } },
+    { "Row3", new string[] { "8", "18", "48", "56", "77" } }
+};
+    
+    Dictionary<string, string[]> Mathias16 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "1", "25", "33", "41", "57" } },
+    { "Row2", new string[] {  "17", "27", "35", "47", "85" } },
+    { "Row3", new string[] { "8", "18", "39", "69", "75" } }
+};
+
+    Dictionary<string, string[]> Mathias17 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "1", "20", "43", "73", "81" } },
+    { "Row2", new string[] { "2", "26", "38", "45", "55" } },
+    { "Row3", new string[] { "7", "17", "27", "67", "88" } }
+};
+
+    Dictionary<string, string[]> Mathias18 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "30", "40", "52", "63", "81" } },
+    { "Row2", new string[] { "8", "11", "46", "68", "76", "84" } },
+    { "Row3", new string[] { "9", "29", "37", "58", "69" } }
+};
+
+    Dictionary<string, string[]> Mathias19 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "3", "20", "30", "50", "84" } },
+    { "Row2", new string[] { "5", "12", "21", "67", "75" } },
+    { "Row3", new string[] { "6", "18", "28", "47", "89" } }
+};
+
+    Dictionary<string, string[]> Mathias20 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "7", "25", "33", "41", "57" } },
+    { "Row2", new string[] { "17", "27", "35", "47", "85" } },
+    { "Row3", new string[] { "8", "18", "39", "69", "75" } }
+};
+    
+    Dictionary<string, string[]> Mathias21 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "1", "31", "42", "75", "82" } },
+    { "Row2", new string[] { "14", "35", "47", "55", "66" } },
+    { "Row3", new string[] { "17", "27", "37", "48", "77" } }
+};
+
+    Dictionary<string, string[]> Mathias22 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "21", "44", "63", "71", "81" } },
+    { "Row2", new string[] { "6", "17", "35", "64", "84" } },
+    { "Row3", new string[] { "8", "18", "48", "56", "77" } }
+};
+
+    Dictionary<string, string[]> Mathias23 = new Dictionary<string, string[]>
+{
+    { "Row1", new string[] { "3", "18", "29", "53", "61", "71" } },
+    { "Row2", new string[] { "6", "44", "57", "62", "83" } },
+    { "Row3", new string[] { "7", "32", "54", "67", "90" } }
+};
+
 
 
     bankoPlates.Add("Mathias1", Mathias1);
@@ -108,7 +178,7 @@ void CreateBankoPlates()
     bankoPlates.Add("Mathias11", Mathias11);
     bankoPlates.Add("Mathias12", Mathias12);
     bankoPlates.Add("Mathias13", Mathias13);
-    //bankoPlates.Add("Mathias14", Mathias14);
+    bankoPlates.Add("Mathias14", Mathias14);
     //bankoPlates.Add("Mathias15", Mathias15);
     //bankoPlates.Add("Mathias16", Mathias16);
     //bankoPlates.Add("Mathias17", Mathias17);
